@@ -3,12 +3,14 @@
  */
 package pa3;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import pa3.one.BirthdayPresents;
+import pa3.two.Temp;
 
+public class App {
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        BirthdayPresents app = new BirthdayPresents();
+        app.run();
+        // Temp t = new Temp();
+        // t.run();
     }
 }
